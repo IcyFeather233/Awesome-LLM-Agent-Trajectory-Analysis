@@ -21,6 +21,16 @@ This repo organizes the field along five dimensions:
 4. Trajectory Monitoring and Analysis Tools
 5. Datasets and Benchmarks
 
+## Contact
+
+For questions, suggestions, or collaboration opportunities, please feel free to reach out:
+
+**Junjie Wang**  
+📧 Email:  [junjie@iscas.ac.cn](mailto:junjie@iscas.ac.cn)
+
+**Mengzhuo Chen**  
+📧 Email:  [chenmengzhuo2023@iscas.ac.cn](mailto:chenmengzhuo2023@iscas.ac.cn)
+
 ## Table of Contents
 
 - [Why This Topic](#why-this-topic)
