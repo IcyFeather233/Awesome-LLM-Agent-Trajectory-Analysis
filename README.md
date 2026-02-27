@@ -1,4 +1,4 @@
-# Awesome LLM Agent Trajectory Analysis
+# Awesome LLM Agent Trajectory Analysis: Failure Attribution, Enhancement & Optimization, Repair, Debugging
 
 <div align="center">
   <img src="assets/cover.png" alt="Awesome LLM Agent Trajectory Analysis Cover" width="850"/>
@@ -13,6 +13,8 @@ A curated repository for **LLM Agent Trajectory Analysis**, based on the survey:
 **A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement** (Junjie Wang et al., 2026).
 
 🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) or [Github](./LLMAgentTraceAnalysisSurvey.pdf).
+
+This repository targets key search topics in this area, including **LLM agent failure attribution**, **trajectory-based debugging**, **root cause analysis**, **agent repair**, and **enhancement/optimization of LLM agent systems**.
 
 This repo organizes the field along five dimensions:
 1. Failure Taxonomy
@@ -34,14 +36,15 @@ For questions, suggestions, or collaboration opportunities, please feel free to 
 ## Table of Contents
 
 - [Why This Topic](#why-this-topic)
+- [Keywords / Search Terms](#keywords--search-terms)
 - [Survey at a Glance](#survey-at-a-glance)
 - [Paper Collection Protocol](#paper-collection-protocol)
 - [Awesome Paper List](#awesome-paper-list)
   - [Failure Taxonomy](#failure-taxonomy)
-  - [Failure Attribution](#failure-attribution)
-  - [System Enhancement and Optimization](#system-enhancement-and-optimization)
-  - [Trajectory Monitoring and Analysis Tools](#trajectory-monitoring-and-analysis-tools)
-  - [Datasets and Benchmarks](#datasets-and-benchmarks)
+  - [Failure Attribution Methods for LLM Agents](#failure-attribution-methods-for-llm-agents)
+  - [Enhancement, Optimization, and Repair](#enhancement-optimization-and-repair)
+  - [Trajectory Monitoring, Debugging, and Analysis Tools](#trajectory-monitoring-debugging-and-analysis-tools)
+  - [Datasets and Benchmarks for Failure Attribution and Repair](#datasets-and-benchmarks-for-failure-attribution-and-repair)
   - [Others and Empirical Studies](#others-and-empirical-studies)
 - [Open Challenges](#open-challenges)
 - [How to Contribute](#how-to-contribute)
@@ -55,6 +58,10 @@ LLM-based agent systems increasingly behave like a new software paradigm. Their 
 - Diagnosing failures
 - Attributing root causes
 - Guiding system-level fixes and optimization
+
+## Keywords / Search Terms
+
+`LLM agent failure attribution`, `failure attribution`, `agent failure analysis`, `trajectory analysis`, `trajectory-based debugging`, `root cause analysis`, `agent repair`, `enhancement optimization`, `LLM agent optimization`, `agent debugging`, `AgentOps`, `LLM multi-agent systems`
 
 ## Survey at a Glance
 
@@ -96,7 +103,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - AgentRx: Diagnosing AI Agent Failures from Execution Trajectories <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="./papers/AgentFail.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-AgentFail-blue" alt="PDF Badge"></a>
 
-### Failure Attribution
+### Failure Attribution Methods for LLM Agents
 
 #### Pattern Analysis-Based
 
@@ -128,7 +135,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - TraceElephant: Seeing the Whole Elephant for Failure Attribution in LLM-based Multi-Agent Systems <a href="./papers/TraceElephant.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-TraceElephant-blue" alt="PDF Badge"></a> <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="./papers/AgentFail.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-AgentFail-blue" alt="PDF Badge"></a>
 
-### System Enhancement and Optimization
+### Enhancement, Optimization, and Repair
 
 #### Structural and Workflow Optimization
 
@@ -148,7 +155,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - Improving the Efficiency of LLM Agent Systems through Trajectory Reduction (AgentDiet) <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems (SUPERVISOR AGENT) <a href="https://arxiv.org/abs/2510.26585" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 
-### Trajectory Monitoring and Analysis Tools
+### Trajectory Monitoring, Debugging, and Analysis Tools
 
 #### System-Level Monitoring and Passive Diagnosis
 
@@ -163,7 +170,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - XAgen: An Explainability Tool for Identifying and Correcting Failures in Multi-Agent Workflows <a href="https://arxiv.org/abs/2512.17896" target="_blank"><img src="https://img.shields.io/badge/CHI_2025-blue" alt="CHI 2025 Badge"></a>
 - DiLLS: Interactive Diagnosis of LLM-based Multi-agent Systems via Layered Summary of Agent Behaviors <a href="https://arxiv.org/abs/2602.05446" target="_blank"><img src="https://img.shields.io/badge/CHI_2026-blue" alt="CHI 2026 Badge"></a>
 
-### Datasets and Benchmarks
+### Datasets and Benchmarks for Failure Attribution and Repair
 
 #### Real-World Failure Collection
 
@@ -185,6 +192,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability <a href="https://arxiv.org/abs/2601.00481" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/sands-lab/maestro" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - Trajectory Guard — A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI <a href="https://arxiv.org/abs/2601.00516" target="_blank"><img src="https://img.shields.io/badge/AAAI_Workshop_2026-blue" alt="AAAI Workshop 2026 Badge"></a>
 - From Features to Actions: Explainability in Traditional and Agentic AI Systems <a href="https://arxiv.org/abs/2602.06841" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://vectorinstitute.github.io/unified-xai-evaluation-framework/" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
+
 ## Open Challenges
 
 - Improve attribution accuracy through stronger causal modeling of trajectories.
