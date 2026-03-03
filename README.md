@@ -101,7 +101,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - Why Do Multi-Agent LLM Systems Fail? <a href="https://arxiv.org/abs/2503.13657" target="_blank"><img src="https://img.shields.io/badge/ICLR_Workshop_2025-blue" alt="ICLR Workshop 2025 Badge"></a> <a href="https://github.com/multi-agent-systems-failure-taxonomy/MAST" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - How Do LLMs Fail In Agentic Scenarios? A Qualitative Analysis of Success and Failure Scenarios of Various LLMs in Agentic Simulations <a href="https://arxiv.org/abs/2512.07497" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_2025-blue" alt="NeurIPS 2025 Badge"></a>
 - AgentRx: Diagnosing AI Agent Failures from Execution Trajectories <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
-- Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="./papers/AgentFail.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-AgentFail-blue" alt="PDF Badge"></a>
+- Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 
 ### Failure Attribution Methods for LLM Agents
 
@@ -119,7 +119,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - RAFFLES: Reasoning-based Attribution of Faults for LLM Systems <a href="https://arxiv.org/abs/2509.06822" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_Workshop_2025-blue" alt="NeurIPS Workshop 2025 Badge"></a>
 - Automatic Failure Attribution and Critical Step Prediction based on Causal Inference (CDC-MAS) <a href="https://arxiv.org/abs/2509.08682" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - Abduct, Act, Predict: Scaffolding Causal Inference for Automated Failure Attribution in Multi-Agent Systems <a href="https://arxiv.org/abs/2509.10401" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_2025-blue" alt="NeurIPS 2025 Badge"></a> <a href="https://github.com/ResearAI/A2P" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
-- From Flat Logs to Causal Graphs (CHIEF) <a href="./papers/CHIEF.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-CHIEF-blue" alt="PDF Badge"></a>
+- From Flat Logs to Causal Graphs: Hierarchical Failure Attribution for LLM-based Multi-Agent Systems <a href="https://arxiv.org/abs/2602.23701" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - AgentRx: Diagnosing AI Agent Failures from Execution Trajectories <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 #### Model Fine-Tuning-Based
@@ -132,8 +132,8 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 
 - DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems <a href="https://arxiv.org/abs/2512.06749" target="_blank"><img src="https://img.shields.io/badge/ICLR_2026-blue" alt="ICLR 2026 Badge"></a> <a href="https://mbjinx.github.io/DoVer_Web/" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - AgentDebug (Where LLM Agents Fail and How They can Learn From Failures) <a href="https://arxiv.org/abs/2509.25370" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://github.com/ulab-uiuc/AgentDebug" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
-- TraceElephant: Seeing the Whole Elephant for Failure Attribution in LLM-based Multi-Agent Systems <a href="./papers/TraceElephant.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-TraceElephant-blue" alt="PDF Badge"></a> <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
-- Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="./papers/AgentFail.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-AgentFail-blue" alt="PDF Badge"></a>
+- TraceElephant: Seeing the Whole Elephant for Failure Attribution in LLM-based Multi-Agent Systems <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
+- Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 
 ### Enhancement, Optimization, and Repair
 
@@ -177,8 +177,8 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - Who&When <a href="https://arxiv.org/abs/2505.00212" target="_blank"><img src="https://img.shields.io/badge/ICML_2025-blue" alt="ICML 2025 Badge"></a> <a href="https://github.com/ag2ai/Agents_Failure_Attribution" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 127 trajectories
 - TRAIL <a href="https://arxiv.org/abs/2505.08638" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://github.com/patronus-ai/trail-benchmark" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 148 trajectories
 - AgentErrorBench <a href="https://arxiv.org/abs/2509.25370" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://github.com/ulab-uiuc/AgentDebug" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 200 trajectories
-- TraceElephant <a href="./papers/TraceElephant.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-TraceElephant-blue" alt="PDF Badge"></a> <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 220 trajectories, full observability + reproducible environment
-- Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="./papers/AgentFail.pdf" target="_blank"><img src="https://img.shields.io/badge/PDF-AgentFail-blue" alt="PDF Badge"></a>: 307 trajectories, lifecycle-level annotation + repair strategy
+- TraceElephant <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 220 trajectories, full observability + reproducible environment
+- Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>: 307 trajectories, lifecycle-level annotation + repair strategy
 - AgentRx <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: first unrecoverable failure step annotation
 
 #### Synthetic Data via Error Injection
