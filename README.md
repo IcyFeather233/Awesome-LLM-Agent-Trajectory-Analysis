@@ -8,11 +8,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Survey PDF](https://img.shields.io/badge/Survey-PDF-blue)](./LLMAgentTraceAnalysisSurvey.pdf)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis)
 
 A curated repository for **LLM Agent Trajectory Analysis**, based on the survey:
 **A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement** (Junjie Wang et al., 2026).
 
-🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) or [Github](./LLMAgentTraceAnalysisSurvey.pdf).
+🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement), [Github](./LLMAgentTraceAnalysisSurvey.pdf), or [Hugging Face](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis).
 
 This repository targets key search topics in this area, including **LLM agent failure attribution**, **trajectory-based debugging**, **root cause analysis**, **agent repair**, and **enhancement/optimization of LLM agent systems**.
 
@@ -132,7 +133,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 
 - DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems <a href="https://arxiv.org/abs/2512.06749" target="_blank"><img src="https://img.shields.io/badge/ICLR_2026-blue" alt="ICLR 2026 Badge"></a> <a href="https://mbjinx.github.io/DoVer_Web/" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - AgentDebug (Where LLM Agents Fail and How They can Learn From Failures) <a href="https://arxiv.org/abs/2509.25370" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://github.com/ulab-uiuc/AgentDebug" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
-- TraceElephant: Seeing the Whole Elephant for Failure Attribution in LLM-based Multi-Agent Systems <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
+- TraceElephant: Seeing the Whole Elephant for Failure Attribution in LLM-based Multi-Agent Systems <a href="https://arxiv.org/abs/2604.22708" target="_blank"><img src="https://img.shields.io/badge/ACL_2026-blue" alt="ACL 2026 Badge"></a> <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 
 ### Enhancement, Optimization, and Repair
@@ -177,7 +178,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - Who&When <a href="https://arxiv.org/abs/2505.00212" target="_blank"><img src="https://img.shields.io/badge/ICML_2025-blue" alt="ICML 2025 Badge"></a> <a href="https://github.com/ag2ai/Agents_Failure_Attribution" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 127 trajectories
 - TRAIL <a href="https://arxiv.org/abs/2505.08638" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://github.com/patronus-ai/trail-benchmark" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 148 trajectories
 - AgentErrorBench <a href="https://arxiv.org/abs/2509.25370" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://github.com/ulab-uiuc/AgentDebug" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 200 trajectories
-- TraceElephant <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 220 trajectories, full observability + reproducible environment
+- TraceElephant <a href="https://arxiv.org/abs/2604.22708" target="_blank"><img src="https://img.shields.io/badge/ACL_2026-blue" alt="ACL 2026 Badge"></a> <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 220 trajectories, full observability + reproducible environment
 - Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>: 307 trajectories, lifecycle-level annotation + repair strategy
 - AgentRx <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: first unrecoverable failure step annotation
 
