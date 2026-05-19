@@ -1,4 +1,4 @@
-# Awesome LLM Agent Trajectory Analysis: Failure Attribution, Enhancement & Optimization, Repair, Debugging
+# Awesome LLM Agent Trajectory Analysis: Failure Attribution, Enhancement, Self-Evolving, Optimization, Repair, Debugging
 
 <div align="center">
   <img src="assets/cover.png" alt="Awesome LLM Agent Trajectory Analysis Cover" width="850"/>
