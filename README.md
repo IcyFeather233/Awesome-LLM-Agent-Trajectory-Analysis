@@ -173,6 +173,18 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 
 ### Datasets and Benchmarks for Failure Attribution and Repair
 
+#### Process and Span-Level Error Localization
+
+- AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents <a href="https://arxiv.org/abs/2603.14465" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/RUCBM/AgentProcessBench" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 1,000 tool-augmented agent trajectories with 8,509 human-labeled step annotations for step-level process quality diagnosis.
+
+- CodeTracer / CodeTraceBench: Towards Traceable Agent States <a href="https://arxiv.org/abs/2604.11641" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://huggingface.co/datasets/NJU-LINK/CodeTraceBench" target="_blank"><img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow" alt="Hugging Face Dataset Badge"></a>: 4,316 coding-agent trajectories with human-verified stage- and step-level annotations for failure localization.
+
+- TELBench / DRIFT: Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories <a href="https://arxiv.org/abs/2606.02060" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/NJU-LINK/DRIFT" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a> <a href="https://huggingface.co/datasets/NJU-LINK/TELBench" target="_blank"><img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow" alt="Hugging Face Dataset Badge"></a>: 1,000 expert-verified deep-research trajectories with semantic spans and harmful error-span annotations.
+
+#### Context Retrieval Benchmarks
+
+- ContextBench: A Benchmark for Context Retrieval in Coding Agents <a href="https://arxiv.org/abs/2602.05892" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/EuniAI/ContextBench" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 1,136 issue-resolution tasks across 66 repositories and 8 programming languages, with 4,548 files, 23,116 blocks, and 522,115 lines of human-verified gold contexts.
+
 #### Real-World Failure Collection
 
 - Who&When <a href="https://arxiv.org/abs/2505.00212" target="_blank"><img src="https://img.shields.io/badge/ICML_2025-blue" alt="ICML 2025 Badge"></a> <a href="https://github.com/ag2ai/Agents_Failure_Attribution" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 127 trajectories
