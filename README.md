@@ -7,12 +7,12 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Survey PDF](https://img.shields.io/badge/Survey-PDF-blue)](./LLMAgentTraceAnalysisSurvey.pdf)
+[![Survey PDF](https://img.shields.io/badge/Survey-PDF-blue)](./LLMAgentTraceAnalysis__v2_clean_.pdf)
 
 A curated repository for **LLM Agent Trajectory Analysis**, based on the survey:
 **A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement** (Junjie Wang et al., 2026).
 
-🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) or [Github](./LLMAgentTraceAnalysisSurvey.pdf).
+🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) or [GitHub](./LLMAgentTraceAnalysis__v2_clean_.pdf).
 
 This repository targets key search topics in this area, including **LLM agent failure attribution**, **trajectory-based debugging**, **root cause analysis**, **agent repair**, and **enhancement/optimization of LLM agent systems**.
 
@@ -65,15 +65,15 @@ LLM-based agent systems increasingly behave like a new software paradigm. Their 
 
 ## Survey at a Glance
 
-- Time window covered: early 2025 to **February 2026**
-- Total collected papers: **42**
+- Time window covered: early 2025 to **April 2026**
+- Total collected papers: **55**
 - Core technical focus:
-  - Failure attribution (18 papers)
-  - Enhancement/optimization (8 papers)
+  - Failure attribution (22 papers)
+  - Enhancement/optimization (14 papers)
 - Supporting foundations:
-  - Failure taxonomy
-  - Monitoring/analysis tools
-  - Benchmarks/datasets
+  - Failure taxonomy (9 papers)
+  - Monitoring/analysis tools (7 papers)
+  - Benchmarks/datasets (10 papers)
 
 Key observations from the survey:
 - Attribution methods have evolved from prompting-based inspection to causal inference, specialized tracer models, and intervention-driven runtime analysis.
@@ -88,7 +88,7 @@ The survey uses:
 - Backward snowballing
 - Inclusion/exclusion criteria + quality checklist
 
-From 1,452 initially retrieved papers, 42 were retained for final analysis.
+From 1,652 initially retrieved papers, 55 were retained for final analysis.
 
 ## Awesome Paper List
 
@@ -102,6 +102,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - How Do LLMs Fail In Agentic Scenarios? A Qualitative Analysis of Success and Failure Scenarios of Various LLMs in Agentic Simulations <a href="https://arxiv.org/abs/2512.07497" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_2025-blue" alt="NeurIPS 2025 Badge"></a>
 - AgentRx: Diagnosing AI Agent Failures from Execution Trajectories <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
+- AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking <a href="https://arxiv.org/abs/2604.23581" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 ### Failure Attribution Methods for LLM Agents
 
@@ -111,6 +112,8 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - Traceability and Accountability in Role-Specialized Multi-Agent LLM Pipelines <a href="https://arxiv.org/abs/2510.07614" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://sites.google.com/view/mas-gain2025/home" target="_blank"><img src="https://img.shields.io/badge/Dataset-Page-0A66C2" alt="Dataset Page Badge"></a>
 - CORRECT: Condensed eRror Recognition via Knowledge Transfer in Multi-Agent Systems <a href="https://arxiv.org/abs/2509.24088" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - Scope Delineation Before Localization (SDBL) <a href="https://arxiv.org/abs/2512.15374" target="_blank"><img src="https://img.shields.io/badge/AAAI_2026-blue" alt="AAAI 2026 Badge"></a> <a href="https://github.com/JarvisPei/SCOPE" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
+- AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking <a href="https://arxiv.org/abs/2604.23581" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- ProMAS: Proactive Error Forecasting for Multi-Agent Systems Using Markov Transition Dynamics <a href="https://arxiv.org/abs/2603.20260" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 #### LLM Reasoning-Based
 
@@ -121,6 +124,8 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - Abduct, Act, Predict: Scaffolding Causal Inference for Automated Failure Attribution in Multi-Agent Systems <a href="https://arxiv.org/abs/2509.10401" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_2025-blue" alt="NeurIPS 2025 Badge"></a> <a href="https://github.com/ResearAI/A2P" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - From Flat Logs to Causal Graphs: Hierarchical Failure Attribution for LLM-based Multi-Agent Systems <a href="https://arxiv.org/abs/2602.23701" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - AgentRx: Diagnosing AI Agent Failures from Execution Trajectories <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- CodeTracer: Towards Traceable Agent States for Failure Attribution <a href="https://arxiv.org/abs/2604.11641" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- ERRORPROBE: Towards Self-Improving Error Diagnosis in Multi-Agent Systems <a href="https://arxiv.org/abs/2604.17658" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 #### Model Fine-Tuning-Based
 
@@ -149,11 +154,16 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - SCOPE: Prompt Evolution for Enhancing Agent Effectiveness <a href="https://arxiv.org/abs/2512.15374" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a> <a href="https://github.com/JarvisPei/SCOPE" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering <a href="https://arxiv.org/abs/2601.04620" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - ReCreate: Reasoning and Creating Domain Agents Driven by Experience <a href="https://arxiv.org/abs/2601.11100" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/zz-haooo/ReCreate" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
+- SEAlign: Alignment Training for Software Engineering Agent <img src="https://img.shields.io/badge/ICSE_2026-blue" alt="ICSE 2026 Badge">
+- Trajectory-Informed Memory Generation for Self-Improving Agent Systems <a href="https://arxiv.org/abs/2603.10600" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills <a href="https://arxiv.org/abs/2603.25158" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 #### Runtime and Supervisory Optimization
 
 - Improving the Efficiency of LLM Agent Systems through Trajectory Reduction (AgentDiet) <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems (SUPERVISOR AGENT) <a href="https://arxiv.org/abs/2510.26585" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
+- Wink: Recovering from Misbehaviors in Coding Agents <a href="https://arxiv.org/abs/2602.17037" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- Process-Centric Analysis of Agentic Software Systems <img src="https://img.shields.io/badge/OOPSLA_2026-blue" alt="OOPSLA 2026 Badge">
 
 ### Trajectory Monitoring, Debugging, and Analysis Tools
 
@@ -180,6 +190,8 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - TraceElephant <a href="https://github.com/TraceElephant/TraceElephant" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 220 trajectories, full observability + reproducible environment
 - Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>: 307 trajectories, lifecycle-level annotation + repair strategy
 - AgentRx <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: first unrecoverable failure step annotation
+- CodeTraceBench <a href="https://arxiv.org/abs/2604.11641" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: software-engineering agent traces for debugging and patching
+- MP-Bench <a href="https://arxiv.org/abs/2603.25001" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: multi-perspective attribution with failure reason and ideal action annotations
 
 #### Synthetic Data via Error Injection
 
@@ -192,6 +204,9 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability <a href="https://arxiv.org/abs/2601.00481" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/sands-lab/maestro" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 - Trajectory Guard — A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI <a href="https://arxiv.org/abs/2601.00516" target="_blank"><img src="https://img.shields.io/badge/AAAI_Workshop_2026-blue" alt="AAAI Workshop 2026 Badge"></a>
 - From Features to Actions: Explainability in Traditional and Agentic AI Systems <a href="https://arxiv.org/abs/2602.06841" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://vectorinstitute.github.io/unified-xai-evaluation-framework/" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
+- Signals: Trajectory Sampling and Triage for Agentic Interactions <a href="https://arxiv.org/abs/2604.00356" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios <a href="https://arxiv.org/abs/2503.12374" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
+- Beyond Resolution Rates: Behavioral Drivers of Coding Agent Success and Failure <a href="https://arxiv.org/abs/2604.02547" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 ## Open Challenges
 
@@ -201,6 +216,7 @@ From 1,452 initially retrieved papers, 42 were retained for final analysis.
 - Shift evaluation from binary success/failure to multi-dimensional capability assessment.
 - Evolve from fragmented tools toward integrated AgentOps governance.
 - Expand from controlled benchmarks to production and domain-specific settings (coding, GUI, web, embodied agents).
+- Extend failure definitions beyond task completion to constraint fulfillment, alignment, and safety.
 
 ## How to Contribute
 
