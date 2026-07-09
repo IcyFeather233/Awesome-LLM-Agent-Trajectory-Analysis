@@ -7,13 +7,13 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Survey PDF](https://img.shields.io/badge/Survey-PDF-blue)](./LLMAgentTraceAnalysis__v2_clean_.pdf)
+[![Survey PDF](https://img.shields.io/badge/Survey-PDF-blue)](./LLMAgentTraceAnalysisSurvey.pdf)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis)
 
 A curated repository for **LLM Agent Trajectory Analysis**, based on the survey:
 **A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement** (Junjie Wang et al., 2026).
 
-🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement), [GitHub](./LLMAgentTraceAnalysis__v2_clean_.pdf), or [Hugging Face](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis).
+🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement), [GitHub](./LLMAgentTraceAnalysisSurvey.pdf), or [Hugging Face](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis).
 
 This repository targets key search topics in this area, including **LLM agent failure attribution**, **trajectory-based debugging**, **root cause analysis**, **agent repair**, and **enhancement/optimization of LLM agent systems**.
 
