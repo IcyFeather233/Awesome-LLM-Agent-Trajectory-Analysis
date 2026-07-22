@@ -104,6 +104,7 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 - AgentRx: Diagnosing AI Agent Failures from Execution Trajectories <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows <a href="https://arxiv.org/abs/2509.23735v2" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking <a href="https://arxiv.org/abs/2604.23581" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy <a href="https://arxiv.org/abs/2606.24177" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/AutoResearch-Factory/Agon" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 
 ### Failure Attribution Methods for LLM Agents
 
