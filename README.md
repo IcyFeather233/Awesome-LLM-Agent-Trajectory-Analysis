@@ -184,6 +184,10 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 
 ### Datasets and Benchmarks for Failure Attribution and Repair
 
+#### Production Web-Agent Trajectory Benchmarks
+
+- ClawBench: A Benchmark for Real-World Web Agent Tasks <a href="https://arxiv.org/abs/2604.08523" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/TIGER-AI-Lab/ClawBench" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a> <a href="https://claw-bench.com/" target="_blank"><img src="https://img.shields.io/badge/Project-Page-0A66C2" alt="Project Page Badge"></a>: 283 real-world web tasks across 163 websites, with replay video, screenshots, HTTP traffic, browser actions, and agent messages. This provides complementary multi-layer trajectories for studying web-agent failures and process quality; it is not a failure-attribution method itself.
+
 #### Process and Span-Level Error Localization
 
 - AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents <a href="https://arxiv.org/abs/2603.14465" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/RUCBM/AgentProcessBench" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>: 1,000 tool-augmented agent trajectories with 8,509 human-labeled step annotations for step-level process quality diagnosis.
