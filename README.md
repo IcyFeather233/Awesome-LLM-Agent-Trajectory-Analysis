@@ -9,11 +9,12 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Survey PDF](https://img.shields.io/badge/Survey-PDF-blue)](./LLMAgentTraceAnalysisSurvey.pdf)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis)
+[![IEEE TSE 2026](https://img.shields.io/badge/IEEE%20TSE-2026-00629B?logo=ieee)](https://ieeexplore.ieee.org/abstract/document/11626967)
 
 A curated repository for **LLM Agent Trajectory Analysis**, based on the survey:
-**A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement** (Junjie Wang et al., 2026).
+**A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement** ([IEEE Transactions on Software Engineering (TSE), 2026](https://ieeexplore.ieee.org/abstract/document/11626967)).
 
-🔥🔥 Our paper is now published! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement) on [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement), [GitHub](./LLMAgentTraceAnalysisSurvey.pdf), or [Hugging Face](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis).
+🔥🔥 Our paper is now published in **IEEE Transactions on Software Engineering (TSE 2026)**! Check out ["A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"](https://ieeexplore.ieee.org/abstract/document/11626967) on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11626967), [ResearchGate](https://www.researchgate.net/publication/401193207_A_Survey_for_LLM_Agent_Trajectory_Analysis_From_Failure_Attribution_to_Enhancement), [GitHub](./LLMAgentTraceAnalysisSurvey.pdf), or [Hugging Face](https://huggingface.co/datasets/RobinChen2001/A-Survey-for-LLM-Agent-Trajectory-Analysis).
 
 This repository targets key search topics in this area, including **LLM agent failure attribution**, **trajectory-based debugging**, **root cause analysis**, **agent repair**, and **enhancement/optimization of LLM agent systems**.
 
@@ -128,6 +129,10 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 - AgentRx: Diagnosing AI Agent Failures from Execution Trajectories <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - CodeTracer: Towards Traceable Agent States for Failure Attribution <a href="https://arxiv.org/abs/2604.11641" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - ERRORPROBE: Towards Self-Improving Error Diagnosis in Multi-Agent Systems <a href="https://arxiv.org/abs/2604.17658" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures <a href="https://arxiv.org/abs/2608.15242" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents <a href="https://arxiv.org/abs/2608.05212" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- TrajAudit: Automated Failure Diagnosis for Agentic Coding Systems <a href="https://arxiv.org/abs/2605.26563" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories <a href="https://arxiv.org/abs/2608.06346" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 #### Model Fine-Tuning-Based
 
@@ -226,6 +231,7 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 - Signals: Trajectory Sampling and Triage for Agentic Interactions <a href="https://arxiv.org/abs/2604.00356" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios <a href="https://arxiv.org/abs/2503.12374" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - Beyond Resolution Rates: Behavioral Drivers of Coding Agent Success and Failure <a href="https://arxiv.org/abs/2604.02547" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break <a href="https://arxiv.org/abs/2604.11978" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 ## Open Challenges
 
@@ -256,9 +262,13 @@ Please open a PR with:
 
 ```bibtex
 @article{wang2026surveytrajectory,
-  title={A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement},
   author={Wang, Junjie and Wang, Yawen and Chen, Mengzhuo and Xie, Xiaofei and Chen, Chunyang and Mu, Fangwen and Liu, Zhe and Wang, Qing},
-  year={2026}
+  journal={IEEE Transactions on Software Engineering},
+  title={A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement},
+  year={2026},
+  pages={1-23},
+  doi={10.1109/TSE.2026.3717765},
+  url={https://ieeexplore.ieee.org/abstract/document/11626967}
 }
 ```
 
