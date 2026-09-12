@@ -171,6 +171,7 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 - Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems (SUPERVISOR AGENT) <a href="https://arxiv.org/abs/2510.26585" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - Wink: Recovering from Misbehaviors in Coding Agents <a href="https://arxiv.org/abs/2602.17037" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - Process-Centric Analysis of Agentic Software Systems <img src="https://img.shields.io/badge/OOPSLA_2026-blue" alt="OOPSLA 2026 Badge">
+- Steer, Don't Solve: Training Small Critic Models for Large Code Agents <a href="https://arxiv.org/abs/2606.21811" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/shubhamrgandhi/critic-training" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a>
 
 ### Trajectory Monitoring, Debugging, and Analysis Tools
 
