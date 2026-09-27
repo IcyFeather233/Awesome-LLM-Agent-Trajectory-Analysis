@@ -233,6 +233,7 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 - Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios <a href="https://arxiv.org/abs/2503.12374" target="_blank"><img src="https://img.shields.io/badge/arXiv_2025-red" alt="arXiv 2025 Badge"></a>
 - Beyond Resolution Rates: Behavioral Drivers of Coding Agent Success and Failure <a href="https://arxiv.org/abs/2604.02547" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break <a href="https://arxiv.org/abs/2604.11978" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- Evaluating Code Slop in Long-Horizon Coding Agents <a href="https://openreview.net/forum?id=VLgFkLRUfV" target="_blank"><img src="https://img.shields.io/badge/COLM_Workshop_2026-blue" alt="COLM Workshop 2026 Badge"></a>
 
 ## Open Challenges
 
