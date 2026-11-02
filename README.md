@@ -218,6 +218,7 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 - AgentRx <a href="https://arxiv.org/abs/2602.02475" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: first unrecoverable failure step annotation
 - CodeTraceBench <a href="https://arxiv.org/abs/2604.11641" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: software-engineering agent traces for debugging and patching
 - MP-Bench <a href="https://arxiv.org/abs/2603.25001" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>: multi-perspective attribution with failure reason and ideal action annotations
+- SciΠvot <a href="https://arxiv.org/abs/2610.21082" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a> <a href="https://github.com/AutoResearch-Factory/SciPIvot" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repo Badge"></a> <a href="https://huggingface.co/datasets/sun1245/SciPIvot" target="_blank"><img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow" alt="Hugging Face Dataset Badge"></a>: 248 decision points where senior researchers corrected LLM agents, from six months of real research on 26 projects in six fields
 
 #### Synthetic Data via Error Injection
 
