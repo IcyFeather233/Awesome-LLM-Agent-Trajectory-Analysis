@@ -164,6 +164,7 @@ From 1,652 initially retrieved papers, 55 were retained for final analysis.
 - SEAlign: Alignment Training for Software Engineering Agent <img src="https://img.shields.io/badge/ICSE_2026-blue" alt="ICSE 2026 Badge">
 - Trajectory-Informed Memory Generation for Self-Improving Agent Systems <a href="https://arxiv.org/abs/2603.10600" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 - Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills <a href="https://arxiv.org/abs/2603.25158" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
+- Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction (MixUA) <a href="https://arxiv.org/abs/2611.10439" target="_blank"><img src="https://img.shields.io/badge/arXiv_2026-red" alt="arXiv 2026 Badge"></a>
 
 #### Runtime and Supervisory Optimization
 
